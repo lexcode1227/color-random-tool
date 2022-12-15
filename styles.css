@@ -66,7 +66,7 @@ nav {
     transition: all 0.5s linear;
 }
 .sidebarToggle:hover {
-    color: red;
+    color: cornflowerblue;
     transform: rotate(360deg);
 }
 .sidebarHeader {
@@ -84,7 +84,7 @@ nav {
     transition: all 0.5s linear;
 }
 .closeBtn:hover {
-    color: red;
+    color: cornflowerblue;
     transform: rotate(360deg);
 }
 .links {
