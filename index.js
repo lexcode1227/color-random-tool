@@ -14,3 +14,15 @@ btn.addEventListener("click", ()=>{
 function getRandomNum(){
     return Math.floor(Math.random() * hex.length)
 }
+
+// Sidebar toggle 
+const toggleBtn = document.querySelector(".sidebarToggle")
+const closeBtn = document.querySelector(".closeBtn")
+const sidebar = document.querySelector(".sidebar")
+
+toggleBtn.addEventListener("click", function (){
+    sidebar.classList.toggle("show-sidebar")
+})
+closeBtn.addEventListener("click", function () {
+    sidebar.classList.remove("show-sidebar")
+  })
